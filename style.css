@@ -114,6 +114,17 @@ padding:0 15px 10px;
 max-width:900px;
 margin:auto;
 
+
+}
+
+.video video{
+
+width:100%;
+border-radius:10px;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
 }
 
 footer{
