@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Souvik Biswas | Artist Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f7f5f0;
+    color:#333;
+    line-height:1.7;
+}
+
+header{
+    background:#1f1f1f;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:42px;
+}
+
+header p{
+    margin-top:10px;
+    color:#ccc;
+}
+
+nav{
+    background:#333;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:#d8c48c;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:50px 0;
+}
+
+h2{
+    margin-bottom:20px;
+    color:#222;
+    border-left:5px solid #c8a96a;
+    padding-left:15px;
+}
+
+.concept{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+    margin-top:30px;
+}
+
+.art{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.art:hover{
+    transform:translateY(-5px);
+}
+
+.art img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+}
+
+.info{
+    padding:20px;
+}
+
+.info h3{
+    margin-bottom:10px;
+}
+
+footer{
+    background:#1f1f1f;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:50px;
+}
+
+@media(max-width:700px){
+
+header h1{
+font-size:30px;
+}
+
+.art img{
+height:250px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Souvik Biswas</h1>
+
+<p>Artist | Nature | Painting | Sculpture</p>
+
+</header>
+
+<nav>
+
+<a href="#concept">Concept Note</a>
+
+<a href="#paintings">Paintings</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+<div class="container">
+
+<section id="concept">
+
+<h2>Concept Note</h2>
+
+<div class="concept">
+
+<p>
+
+My artistic practice begins with careful observation of nature and the unnoticed details that surround us. I am inspired by insects, plants, leaves, seeds, and the relationships they create within ecosystems. Through painting and sculpture, I explore themes of memory, transformation, and the hidden beauty that often goes unnoticed.
+
+Rather than documenting nature scientifically, I use observation as a way of understanding the quiet connections between humans and the natural world. My work invites viewers to slow down, look closely, and appreciate the unseen life that exists around us.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="paintings">
+
+<h2>Selected Paintings</h2>
+
+<div class="gallery">
+
+<div class="art">
+
+<img src="images/painting1.jpg" alt="Painting 1">
+
+<div class="info">
+
+<h3>Dream Night</h3>
+
+<p>
+A painting inspired by childhood memories and the silent presence of nature.
+</p>
+
+</div>
+
+</div>
+
+<div class="art">
+
+<img src="images/painting2.jpg" alt="Painting 2">
+
+<div class="info">
+
+<h3>The Unseen</h3>
+
+<p>
+Exploring insects and overlooked life forms that quietly sustain our environment.
+</p>
+
+</div>
+
+</div>
+
+<div class="art">
+
+<img src="images/painting3.jpg" alt="Painting 3">
+
+<div class="info">
+
+<h3>Metamorphosis</h3>
+
+<p>
+Reflecting growth, change, and the delicate balance of natural ecosystems.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" style="margin-top:60px;">
+
+<h2>Contact</h2>
+
+<p>Email: your@email.com</p>
+
+<p>Instagram: @yourusername</p>
+
+</section>
+
+</div>
+
+<footer>
+
+<p>© 2026 Souvik Biswas | All Rights Reserved</p>
+
+</footer>
+
+</body>
+</html>
